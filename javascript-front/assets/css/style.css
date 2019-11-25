@@ -1,0 +1,51 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-weight: normal;
+  letter-spacing: 0.2px;
+  color: #545e6f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #f1f2f5;
+}
+
+.header {
+  background: #ff9803;
+  padding: 20px 25px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-bootcamp {
+  height: 30px;
+  width: 100px;
+  background: url('../img/logo_itbootcamp.png') no-repeat center center;
+  background-size: contain;
+}
+
+.logo-name {
+  margin: 0 0 0 14px;
+  line-height: 30px;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.header-logo img {
+  height: 100%;
+}
+
+#app {
+  text-align: center;
+}
+
